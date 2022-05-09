@@ -1,6 +1,6 @@
 # AR Climate Spiral
 
-![AppIcon]()
+![AppIcon](https://user-images.githubusercontent.com/66309582/167423508-3425ad3e-337b-434b-8893-5cdada0e279d.png)
 
 A minimal iOS AR app that visualizes monthly global temperature anomalies between 
 the years 1880 and 2021.
@@ -21,8 +21,9 @@ according to the climate data.
 
 Since the project is a minimal implementation, please modify it as you like.
 
-![Image]()
-![GIF]()
+![Image](https://user-images.githubusercontent.com/66309582/167423657-c283a4b0-a448-400e-9ac0-25dbbe95077c.jpeg)
+![Image](https://user-images.githubusercontent.com/66309582/167423737-63c4a1f7-2876-42b7-94a0-0ca5261e2d06.jpeg)
+![GIF](https://user-images.githubusercontent.com/66309582/167423836-86cd441e-8763-4488-a63d-08d7fb270acb.gif)
 
 ## References
 
