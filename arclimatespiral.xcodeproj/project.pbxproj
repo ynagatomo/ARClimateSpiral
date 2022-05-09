@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA39F0302826A2140002CA4C /* arclimatespiralApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA39F02F2826A2140002CA4C /* arclimatespiralApp.swift */; };
+		BA39F0342826A2150002CA4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA39F0332826A2150002CA4C /* Assets.xcassets */; };
+		BA39F0372826A2150002CA4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA39F0362826A2150002CA4C /* Preview Assets.xcassets */; };
+		BA39F04128274C1C0002CA4C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA39F04028274C1C0002CA4C /* HomeView.swift */; };
+		BA39F049282759DA0002CA4C /* SpiralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA39F048282759DA0002CA4C /* SpiralView.swift */; };
+		BA39F04C28276A7F0002CA4C /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA39F04B28276A7E0002CA4C /* ModelManager.swift */; };
+		BA39F04E2827B8A00002CA4C /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA39F04D2827B8A00002CA4C /* ARViewController.swift */; };
+		BA39F0502827C91A0002CA4C /* ARScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA39F04F2827C9190002CA4C /* ARScene.swift */; };
+		BA39F0532827EE290002CA4C /* ARContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA39F0522827EE280002CA4C /* ARContainerView.swift */; };
+		BA39F0552827F07A0002CA4C /* ARSceneConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA39F0542827F07A0002CA4C /* ARSceneConstant.swift */; };
+		BA39F0572827F4100002CA4C /* ClimateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA39F0562827F4100002CA4C /* ClimateData.swift */; };
+		BA39F05B282897C80002CA4C /* ModelConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA39F05A282897C80002CA4C /* ModelConstant.swift */; };
+		BA39F05D282938420002CA4C /* ClimateSpiralModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA39F05C282938420002CA4C /* ClimateSpiralModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA39F02C2826A2140002CA4C /* arclimatespiral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arclimatespiral.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA39F02F2826A2140002CA4C /* arclimatespiralApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arclimatespiralApp.swift; sourceTree = "<group>"; };
+		BA39F0332826A2150002CA4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA39F0362826A2150002CA4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA39F03D2826A27E0002CA4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BA39F03E2826A5E00002CA4C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BA39F04028274C1C0002CA4C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BA39F048282759DA0002CA4C /* SpiralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralView.swift; sourceTree = "<group>"; };
+		BA39F04B28276A7E0002CA4C /* ModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		BA39F04D2827B8A00002CA4C /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		BA39F04F2827C9190002CA4C /* ARScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARScene.swift; sourceTree = "<group>"; };
+		BA39F0522827EE280002CA4C /* ARContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARContainerView.swift; sourceTree = "<group>"; };
+		BA39F0542827F07A0002CA4C /* ARSceneConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSceneConstant.swift; sourceTree = "<group>"; };
+		BA39F0562827F4100002CA4C /* ClimateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateData.swift; sourceTree = "<group>"; };
+		BA39F05A282897C80002CA4C /* ModelConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelConstant.swift; sourceTree = "<group>"; };
+		BA39F05C282938420002CA4C /* ClimateSpiralModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateSpiralModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA39F0292826A2140002CA4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA39F0232826A2140002CA4C = {
+			isa = PBXGroup;
+			children = (
+				BA39F03E2826A5E00002CA4C /* README.md */,
+				BA39F02E2826A2140002CA4C /* arclimatespiral */,
+				BA39F02D2826A2140002CA4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA39F02D2826A2140002CA4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA39F02C2826A2140002CA4C /* arclimatespiral.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA39F02E2826A2140002CA4C /* arclimatespiral */ = {
+			isa = PBXGroup;
+			children = (
+				BA39F03D2826A27E0002CA4C /* Info.plist */,
+				BA39F02F2826A2140002CA4C /* arclimatespiralApp.swift */,
+				BA39F03F28274BBA0002CA4C /* Views */,
+				BA39F0512827EDFC0002CA4C /* ARScene */,
+				BA39F04A282769F40002CA4C /* ModelManager */,
+				BA39F0332826A2150002CA4C /* Assets.xcassets */,
+				BA39F0352826A2150002CA4C /* Preview Content */,
+			);
+			path = arclimatespiral;
+			sourceTree = "<group>";
+		};
+		BA39F0352826A2150002CA4C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA39F0362826A2150002CA4C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA39F03F28274BBA0002CA4C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA39F04028274C1C0002CA4C /* HomeView.swift */,
+				BA39F048282759DA0002CA4C /* SpiralView.swift */,
+				BA39F0522827EE280002CA4C /* ARContainerView.swift */,
+				BA39F04D2827B8A00002CA4C /* ARViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BA39F04A282769F40002CA4C /* ModelManager */ = {
+			isa = PBXGroup;
+			children = (
+				BA39F04B28276A7E0002CA4C /* ModelManager.swift */,
+				BA39F05C282938420002CA4C /* ClimateSpiralModel.swift */,
+				BA39F05A282897C80002CA4C /* ModelConstant.swift */,
+				BA39F0562827F4100002CA4C /* ClimateData.swift */,
+			);
+			path = ModelManager;
+			sourceTree = "<group>";
+		};
+		BA39F0512827EDFC0002CA4C /* ARScene */ = {
+			isa = PBXGroup;
+			children = (
+				BA39F04F2827C9190002CA4C /* ARScene.swift */,
+				BA39F0542827F07A0002CA4C /* ARSceneConstant.swift */,
+			);
+			path = ARScene;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA39F02B2826A2140002CA4C /* arclimatespiral */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA39F03A2826A2150002CA4C /* Build configuration list for PBXNativeTarget "arclimatespiral" */;
+			buildPhases = (
+				BA39F0282826A2140002CA4C /* Sources */,
+				BA39F0292826A2140002CA4C /* Frameworks */,
+				BA39F02A2826A2140002CA4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = arclimatespiral;
+			productName = arclimatespiral;
+			productReference = BA39F02C2826A2140002CA4C /* arclimatespiral.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA39F0242826A2140002CA4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					BA39F02B2826A2140002CA4C = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BA39F0272826A2140002CA4C /* Build configuration list for PBXProject "arclimatespiral" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA39F0232826A2140002CA4C;
+			productRefGroup = BA39F02D2826A2140002CA4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA39F02B2826A2140002CA4C /* arclimatespiral */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA39F02A2826A2140002CA4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA39F0372826A2150002CA4C /* Preview Assets.xcassets in Resources */,
+				BA39F0342826A2150002CA4C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA39F0282826A2140002CA4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA39F0572827F4100002CA4C /* ClimateData.swift in Sources */,
+				BA39F05B282897C80002CA4C /* ModelConstant.swift in Sources */,
+				BA39F0532827EE290002CA4C /* ARContainerView.swift in Sources */,
+				BA39F05D282938420002CA4C /* ClimateSpiralModel.swift in Sources */,
+				BA39F04E2827B8A00002CA4C /* ARViewController.swift in Sources */,
+				BA39F0502827C91A0002CA4C /* ARScene.swift in Sources */,
+				BA39F0552827F07A0002CA4C /* ARSceneConstant.swift in Sources */,
+				BA39F04128274C1C0002CA4C /* HomeView.swift in Sources */,
+				BA39F0302826A2140002CA4C /* arclimatespiralApp.swift in Sources */,
+				BA39F049282759DA0002CA4C /* SpiralView.swift in Sources */,
+				BA39F04C28276A7F0002CA4C /* ModelManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BA39F0382826A2150002CA4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA39F0392826A2150002CA4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA39F03B2826A2150002CA4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"arclimatespiral/Preview Content\"";
+				DEVELOPMENT_TEAM = J5CY9Q9UP5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = arclimatespiral/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "AR Climate Spiral";
+				INFOPLIST_KEY_NSCameraUsageDescription = "AR requires a camera.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atarayosd.arclimatespiral;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA39F03C2826A2150002CA4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"arclimatespiral/Preview Content\"";
+				DEVELOPMENT_TEAM = J5CY9Q9UP5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = arclimatespiral/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "AR Climate Spiral";
+				INFOPLIST_KEY_NSCameraUsageDescription = "AR requires a camera.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atarayosd.arclimatespiral;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA39F0272826A2140002CA4C /* Build configuration list for PBXProject "arclimatespiral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA39F0382826A2150002CA4C /* Debug */,
+				BA39F0392826A2150002CA4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA39F03A2826A2150002CA4C /* Build configuration list for PBXNativeTarget "arclimatespiral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA39F03B2826A2150002CA4C /* Debug */,
+				BA39F03C2826A2150002CA4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA39F0242826A2140002CA4C /* Project object */;
+}
